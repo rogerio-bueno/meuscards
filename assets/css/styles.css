@@ -78,7 +78,7 @@ body::before {
 .site-header h1 .h1-accent { color: var(--accent); }
 
 /* Mobile: hide "Flash" e " Study" */
-.h1-pre, .h1-pos { display: none; }
+.h1-pos { display: none; }
 
 .header-actions {
   display: flex;
