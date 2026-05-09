@@ -1,38 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Meus Cards de Estudo - Rogério Bueno</title>
 
   <!-- Bootstrap 5 -->
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-  />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
   <!-- Custom styles -->
   <link rel="stylesheet" href="./assets/css/styles.css" />
 </head>
+
 <body>
 
   <!-- Header -->
   <header class="site-header">
-    <div class="container d-flex align-items-center justify-content-between gap-3">
+    <div class="container header-inner">
       <h1><span>Meus Cards de Estudo</span> - Rogério Bueno</h1>
-      <div class="d-flex align-items-center gap-3">
-        <span class="badge-count" id="total-cards">0</span> cartas
+      <div class="header-actions">
+        <span class="badge-count"><span id="total-cards">0</span> cartas</span>
         <button class="btn-ctrl btn-shuffle" id="btn-shuffle" title="Embaralhar cartas">
-          🔀 Embaralhar
+          🔀 <span class="btn-label">Embaralhar</span>
         </button>
-        <button class="btn-ctrl btn-prev" id="btn-reset" title="Reiniciar sessão" style="padding:0.5rem 1rem;font-size:0.78rem">
-          ↺ Reiniciar
+        <button class="btn-ctrl btn-icon-reset" id="btn-reset" title="Reiniciar sessão">
+          ↺ <span class="btn-label">Reiniciar</span>
         </button>
       </div>
     </div>
   </header>
 
   <!-- Main -->
-  <main class="container py-4" style="position:relative;z-index:1;max-width:860px">
+  <main class="container main-content">
 
     <!-- Progress -->
     <div class="progress-wrap">
@@ -48,52 +47,45 @@
     <!-- Category filters -->
     <div class="filter-wrap" id="filter-wrap"></div>
 
-    <!-- Deck (card + controls) -->
+    <!-- Deck -->
     <div id="main-deck">
 
       <!-- Flashcard -->
       <div class="flashcard-area">
         <div class="card-scene">
-          <div class="card-inner" id="card-inner" role="button" tabindex="0"
-               aria-label="Clique ou pressione Enter para virar a carta">
+          <div class="card-inner" id="card-inner" role="button" tabindex="0" aria-label="Toque para virar a carta">
 
             <!-- FRONT -->
             <div class="card-face card-front">
-              <div class="d-flex justify-content-between align-items-center">
+              <div class="card-face-top">
                 <span class="card-category" id="card-category">Categoria</span>
                 <span class="card-number" id="card-number">1 / 1</span>
               </div>
-
               <div class="card-body">
                 <p class="card-question" id="card-question">Carregando pergunta…</p>
               </div>
-
               <div class="card-hint" id="card-hint">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-                     stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
-                  <path d="M7 17l9.2-9.2M17 17V7H7"/>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                  stroke-linecap="round">
+                  <path d="M7 17l9.2-9.2M17 17V7H7" />
                 </svg>
-                Clique para revelar a resposta
+                Toque para revelar a resposta
               </div>
             </div>
 
             <!-- BACK -->
             <div class="card-face card-back">
-              <div class="d-flex justify-content-between align-items-center">
-                <span class="card-category" style="background:rgba(247,106,138,.15);border-color:rgba(247,106,138,.3);color:#f76a8a">
-                  Resposta
-                </span>
+              <div class="card-face-top">
+                <span class="card-category card-category--answer">Resposta</span>
                 <span class="card-number" id="card-number-back"></span>
               </div>
-
               <div class="card-body">
                 <p class="card-answer" id="card-answer">Resposta aqui…</p>
               </div>
-
-              <div class="card-hint" style="color:rgba(247,106,138,.6)">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-                     stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
-                  <path d="M7 17l9.2-9.2M17 17V7H7"/>
+              <div class="card-hint card-hint--back">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                  stroke-linecap="round">
+                  <path d="M7 17l9.2-9.2M17 17V7H7" />
                 </svg>
                 Avalie seu desempenho abaixo
               </div>
@@ -103,20 +95,16 @@
         </div><!-- /card-scene -->
       </div><!-- /flashcard-area -->
 
-      <!-- Feedback buttons (visíveis após virar) -->
+      <!-- Feedback buttons -->
       <div class="feedback-controls" id="feedback-controls">
-        <button class="btn-ctrl btn-wrong" id="btn-wrong">
-          ✗ &nbsp;Errei
-        </button>
-        <button class="btn-ctrl btn-correct" id="btn-correct">
-          ✓ &nbsp;Acertei
-        </button>
+        <button class="btn-ctrl btn-wrong" id="btn-wrong">✗ &nbsp;Errei</button>
+        <button class="btn-ctrl btn-correct" id="btn-correct">✓ &nbsp;Acertei</button>
       </div>
 
       <!-- Navigation controls -->
       <div class="controls-wrap">
         <button class="btn-ctrl btn-prev" id="btn-prev">← Anterior</button>
-        <button class="btn-ctrl btn-flip" id="btn-flip">↕ Virar Carta</button>
+        <button class="btn-ctrl btn-flip" id="btn-flip">↕ Virar</button>
         <button class="btn-ctrl btn-next" id="btn-next">Próxima →</button>
       </div>
 
@@ -131,7 +119,7 @@
         <strong id="completed-total">0</strong> cartas
         (<span id="completed-pct">0%</span> de aproveitamento)
       </p>
-      <button class="btn-ctrl btn-flip" id="btn-restart" style="margin:0 auto">
+      <button class="btn-ctrl btn-flip btn-restart-center" id="btn-restart">
         ↺ Estudar Novamente
       </button>
     </div>
@@ -152,12 +140,13 @@
       </div>
     </div>
 
-    <!-- Keyboard shortcuts hint -->
-    <p class="text-center" style="color:var(--muted);font-size:0.72rem;letter-spacing:0.06em;font-family:'Syne',sans-serif;font-weight:600;text-transform:uppercase;margin-bottom:3rem">
-      Atalhos: <kbd style="background:var(--surface2);border:1px solid var(--border);border-radius:5px;padding:2px 6px;color:var(--muted)">Espaço</kbd> virar &nbsp;·&nbsp;
-      <kbd style="background:var(--surface2);border:1px solid var(--border);border-radius:5px;padding:2px 6px;color:var(--muted)">←→</kbd> navegar &nbsp;·&nbsp;
-      <kbd style="background:var(--surface2);border:1px solid var(--border);border-radius:5px;padding:2px 6px;color:var(--muted)">↑</kbd> acertei &nbsp;·&nbsp;
-      <kbd style="background:var(--surface2);border:1px solid var(--border);border-radius:5px;padding:2px 6px;color:var(--muted)">↓</kbd> errei
+    <!-- Keyboard shortcuts (hidden on mobile) -->
+    <p class="shortcuts-hint">
+      Atalhos:
+      <kbd>Espaço</kbd> virar &nbsp;·&nbsp;
+      <kbd>←→</kbd> navegar &nbsp;·&nbsp;
+      <kbd>↑</kbd> acertei &nbsp;·&nbsp;
+      <kbd>↓</kbd> errei
     </p>
 
   </main>
@@ -167,4 +156,5 @@
   <!-- App script -->
   <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
