@@ -578,6 +578,8 @@ body::before {
 
   .site-header h1 { font-size: 1.25rem; }
 
+  .site-header h1 { font-size: 1.25rem; }
+
   .card-face { padding: 1.5rem 1.75rem; }
 
   .btn-ctrl {
@@ -603,7 +605,7 @@ body::before {
   }
 
   /* Header: stack label below title on very small */
-  .site-header h1 { font-size: 1.1rem; }
+  .site-header h1 { font-size: 1.1rem; flex-direction: column;}
 
   .badge-count { font-size: 0.72rem; padding: 0.2rem 0.65rem; }
 
