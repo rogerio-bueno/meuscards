@@ -1,5 +1,5 @@
 /* ============================================
-   FLASHCARD STUDY - script.js
+  Meus Cards de Estudo - Rogério Bueno - script.js
    ============================================ */
 
 'use strict';
