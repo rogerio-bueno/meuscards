@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "categoria": "JavaScript",
+    "pergunta": "O que é uma closure em JavaScript?",
+    "resposta": "Uma closure é uma função que tem acesso ao escopo da função externa, mesmo após a função externa ter retornado. Ela 'fecha' sobre as variáveis do escopo pai."
+  },
+  {
+    "id": 2,
+    "categoria": "JavaScript",
+    "pergunta": "Qual a diferença entre 'let', 'const' e 'var'?",
+    "resposta": "'var' tem escopo de função e sofre hoisting. 'let' e 'const' têm escopo de bloco. 'const' não pode ser reatribuída, mas seus objetos/arrays podem ser mutados."
+  },
+  {
+    "id": 3,
+    "categoria": "HTML",
+    "pergunta": "O que é o DOM?",
+    "resposta": "DOM (Document Object Model) é uma interface de programação que representa a estrutura do documento HTML como uma árvore de objetos, permitindo que scripts manipulem a estrutura, estilo e conteúdo da página."
+  },
+  {
+    "id": 4,
+    "categoria": "CSS",
+    "pergunta": "O que é Flexbox?",
+    "resposta": "Flexbox é um modelo de layout CSS unidimensional que permite distribuir espaço e alinhar itens em um contêiner, mesmo quando o tamanho dos itens é desconhecido ou dinâmico."
+  },
+  {
+    "id": 5,
+    "categoria": "CSS",
+    "pergunta": "Qual a diferença entre 'position: relative' e 'position: absolute'?",
+    "resposta": "'relative' posiciona o elemento em relação à sua posição normal no fluxo. 'absolute' remove o elemento do fluxo e o posiciona em relação ao ancestral posicionado mais próximo."
+  },
+  {
+    "id": 6,
+    "categoria": "JavaScript",
+    "pergunta": "O que são Promises em JavaScript?",
+    "resposta": "Promises são objetos que representam a eventual conclusão (ou falha) de uma operação assíncrona e seu valor resultante. Possuem três estados: pending, fulfilled e rejected."
+  },
+  {
+    "id": 7,
+    "categoria": "HTML",
+    "pergunta": "Para que serve a tag <semantic> HTML5?",
+    "resposta": "As tags semânticas do HTML5 (como <header>, <nav>, <main>, <article>, <section>, <footer>) descrevem o significado do conteúdo, melhorando acessibilidade e SEO."
+  },
+  {
+    "id": 8,
+    "categoria": "CSS",
+    "pergunta": "O que é CSS Grid?",
+    "resposta": "CSS Grid é um sistema de layout bidimensional que permite criar layouts em linhas e colunas simultaneamente, oferecendo controle preciso sobre o posicionamento dos elementos."
+  },
+  {
+    "id": 9,
+    "categoria": "JavaScript",
+    "pergunta": "O que é o Event Loop no JavaScript?",
+    "resposta": "O Event Loop é o mecanismo que permite ao JavaScript executar operações não-bloqueantes. Ele monitora a call stack e a callback queue, movendo callbacks para a stack quando ela está vazia."
+  },
+  {
+    "id": 10,
+    "categoria": "HTML",
+    "pergunta": "O que é a tag <meta viewport>?",
+    "resposta": "A meta tag viewport controla como a página é exibida em dispositivos móveis. 'width=device-width' define a largura igual à do dispositivo, e 'initial-scale=1.0' define o nível de zoom inicial."
+  }
+]
