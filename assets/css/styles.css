@@ -605,7 +605,7 @@ body::before {
   }
 
   /* Header: stack label below title on very small */
-  .site-header h1 { font-size: 1.1rem; flex-direction: column;}
+  .site-header h1 { font-size: 1.1rem; }
 
   .badge-count { font-size: 0.72rem; padding: 0.2rem 0.65rem; }
 
