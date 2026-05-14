@@ -1,181 +1,181 @@
 [
   {
     "id": 1,
-    "categoria": "Qualidade de Software",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "O que é qualidade de software?",
     "resposta": "É o conjunto de características que garantem que o software atende às necessidades do usuário e funciona corretamente."
   },
   {
     "id": 2,
-    "categoria": "Qualidade de Software",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "Qual é o principal objetivo da qualidade de software?",
     "resposta": "Garantir confiabilidade, eficiência, segurança e satisfação do usuário."
   },
   {
     "id": 3,
-    "categoria": "Qualidade de Software",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "O que significa software confiável?",
     "resposta": "Um software que executa suas funções sem falhas frequentes."
   },
   {
     "id": 4,
-    "categoria": "Qualidade de Software",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "O que é usabilidade em software?",
     "resposta": "Facilidade de uso e entendimento do sistema pelo usuário."
   },
   {
     "id": 5,
-    "categoria": "Qualidade de Software",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "O que é manutenibilidade?",
     "resposta": "Facilidade de corrigir erros ou implementar melhorias no sistema."
   },
   {
     "id": 6,
-    "categoria": "Qualidade de Software",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "O que é eficiência em um software?",
     "resposta": "Capacidade do sistema de utilizar poucos recursos e responder rapidamente."
   },
   {
     "id": 7,
-    "categoria": "Qualidade de Software",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "O que é portabilidade?",
     "resposta": "Capacidade do software funcionar em diferentes ambientes ou plataformas."
   },
   {
     "id": 8,
-    "categoria": "Qualidade de Software",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "O que é segurança em software?",
     "resposta": "Proteção contra acessos indevidos, perda de dados e ataques."
   },
   {
     "id": 9,
-    "categoria": "Qualidade de Software",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "O que é compatibilidade em software?",
     "resposta": "Capacidade de funcionar corretamente com outros sistemas e dispositivos."
   },
   {
     "id": 10,
-    "categoria": "Qualidade de Software",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "Qual a importância da qualidade de software?",
     "resposta": "Reduz falhas, melhora a experiência do usuário e diminui custos de manutenção."
   },
   {
     "id": 11,
-    "categoria": "Gerenciamento de Defeitos",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "O que é um defeito em software?",
     "resposta": "Um erro ou falha que causa comportamento incorreto no sistema."
   },
   {
     "id": 12,
-    "categoria": "Gerenciamento de Defeitos",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "O que é gerenciamento de defeitos?",
     "resposta": "Processo de identificar, registrar, acompanhar e corrigir defeitos."
   },
   {
     "id": 13,
-    "categoria": "Gerenciamento de Defeitos",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "O que é bug tracking?",
     "resposta": "Controle e monitoramento dos defeitos encontrados."
   },
   {
     "id": 14,
-    "categoria": "Gerenciamento de Defeitos",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "Qual a primeira etapa do gerenciamento de defeitos?",
     "resposta": "Identificação do defeito."
   },
   {
     "id": 15,
-    "categoria": "Gerenciamento de Defeitos",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "O que é severidade de defeito?",
     "resposta": "Nível de impacto causado pelo defeito no sistema."
   },
   {
     "id": 16,
-    "categoria": "Gerenciamento de Defeitos",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "O que é prioridade de defeito?",
     "resposta": "Grau de urgência para corrigir o defeito."
   },
   {
     "id": 17,
-    "categoria": "Gerenciamento de Defeitos",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "O que significa defeito crítico?",
     "resposta": "Falha grave que impede o funcionamento do sistema."
   },
   {
     "id": 18,
-    "categoria": "Gerenciamento de Defeitos",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "O que é reprodução de defeito?",
     "resposta": "Repetir os passos que causam o erro para análise."
   },
   {
     "id": 19,
-    "categoria": "Gerenciamento de Defeitos",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "O que é reteste?",
     "resposta": "Teste realizado após a correção do defeito."
   },
   {
     "id": 20,
-    "categoria": "Gerenciamento de Defeitos",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "Qual ferramenta é comum no gerenciamento de defeitos?",
     "resposta": "Ferramentas como Jira e Bugzilla são muito utilizadas."
   },
   {
     "id": 21,
-    "categoria": "Introdução aos Testes de Software",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "O que é teste de software?",
     "resposta": "Processo de verificar se o sistema funciona conforme esperado."
   },
   {
     "id": 22,
-    "categoria": "Introdução aos Testes de Software",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "Qual o objetivo dos testes de software?",
     "resposta": "Encontrar defeitos antes que o sistema seja entregue ao usuário."
   },
   {
     "id": 23,
-    "categoria": "Introdução aos Testes de Software",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "O que é caso de teste?",
     "resposta": "Conjunto de condições usadas para validar uma funcionalidade."
   },
   {
     "id": 24,
-    "categoria": "Introdução aos Testes de Software",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "O que é teste funcional?",
     "resposta": "Teste que verifica funções e requisitos do sistema."
   },
   {
     "id": 25,
-    "categoria": "Introdução aos Testes de Software",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "O que é teste não funcional?",
     "resposta": "Teste relacionado a desempenho, segurança e usabilidade."
   },
   {
     "id": 26,
-    "categoria": "Introdução aos Testes de Software",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "O que é teste manual?",
     "resposta": "Teste executado diretamente por uma pessoa."
   },
   {
     "id": 27,
-    "categoria": "Introdução aos Testes de Software",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "O que é teste automatizado?",
     "resposta": "Teste executado por ferramentas e scripts automáticos."
   },
   {
     "id": 28,
-    "categoria": "Introdução aos Testes de Software",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "O que é teste de regressão?",
     "resposta": "Teste para verificar se mudanças não causaram novos erros."
   },
   {
     "id": 29,
-    "categoria": "Introdução aos Testes de Software",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "O que é teste de aceitação?",
     "resposta": "Validação final para confirmar se o sistema atende ao usuário."
   },
   {
     "id": 30,
-    "categoria": "Introdução aos Testes de Software",
+    "categoria": "Qualidade de Sofiteware",
     "pergunta": "Qual a importância dos testes de software?",
     "resposta": "Garantir qualidade, reduzir falhas e aumentar a confiança no sistema."
   }
