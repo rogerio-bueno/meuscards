@@ -178,5 +178,305 @@
     "categoria": "Qualidade de Sofiteware",
     "pergunta": "Qual a importância dos testes de software?",
     "resposta": "Garantir qualidade, reduzir falhas e aumentar a confiança no sistema."
+  },
+  {
+    "id": 31,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "O que são métodos ágeis?",
+    "resposta": "São abordagens de gerenciamento e desenvolvimento de projetos que priorizam flexibilidade, colaboração, adaptação às mudanças e entrega contínua de valor."
+  },
+  {
+    "id": 32,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Por que os métodos ágeis surgiram?",
+    "resposta": "Surgiram como alternativa aos métodos tradicionais, como o modelo cascata, que possuem planejamento rígido e sequencial."
+  },
+  {
+    "id": 33,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Em quais áreas as metodologias ágeis são mais utilizadas?",
+    "resposta": "São amplamente utilizadas no desenvolvimento de software, mas também aplicadas em diversos outros contextos e projetos."
+  },
+  {
+    "id": 34,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "O que é iteração nas metodologias ágeis?",
+    "resposta": "É a divisão do trabalho em ciclos curtos e repetitivos, geralmente entre 1 e 4 semanas."
+  },
+  {
+    "id": 35,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "O que é incremento em métodos ágeis?",
+    "resposta": "É a entrega contínua de pequenas partes funcionais do produto que agregam valor ao cliente."
+  },
+  {
+    "id": 36,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Como são chamadas as iterações no Scrum?",
+    "resposta": "As iterações no Scrum são chamadas de sprints."
+  },
+  {
+    "id": 37,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Qual a importância da colaboração nas metodologias ágeis?",
+    "resposta": "A colaboração garante alinhamento entre equipe, cliente e usuários durante todo o projeto."
+  },
+  {
+    "id": 38,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Qual o papel do cliente em projetos ágeis?",
+    "resposta": "O cliente participa ativamente do processo para garantir que as entregas atendam às suas necessidades."
+  },
+  {
+    "id": 39,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Como as metodologias ágeis tratam mudanças de requisitos?",
+    "resposta": "As mudanças são aceitas e tratadas com flexibilidade, mesmo em fases avançadas do projeto."
+  },
+  {
+    "id": 40,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "O que significa valorização de pessoas no ágil?",
+    "resposta": "Significa priorizar interação humana, autonomia e colaboração acima de processos rígidos e ferramentas."
+  },
+  {
+    "id": 41,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "O que é uma equipe auto-organizada?",
+    "resposta": "É uma equipe com autonomia para decidir como executar o trabalho e resolver problemas."
+  },
+  {
+    "id": 42,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Qual o objetivo da entrega contínua de valor?",
+    "resposta": "Entregar funcionalidades úteis e de qualidade ao cliente de forma frequente."
+  },
+  {
+    "id": 43,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Qual a importância do feedback contínuo?",
+    "resposta": "Permite melhorar o produto e ajustar processos constantemente."
+  },
+  {
+    "id": 44,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "O que é retrospectiva em métodos ágeis?",
+    "resposta": "É uma reunião usada para identificar pontos fortes, problemas e melhorias no processo."
+  },
+  {
+    "id": 45,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "O que é backlog?",
+    "resposta": "É uma lista priorizada de tarefas, funcionalidades ou requisitos do projeto."
+  },
+  {
+    "id": 46,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Como as tarefas são priorizadas no ágil?",
+    "resposta": "Com base no valor para o cliente e nos objetivos do projeto."
+  },
+  {
+    "id": 47,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "O que significa minimizar desperdícios em métodos ágeis?",
+    "resposta": "Evitar atividades que não agregam valor, como documentação excessiva e processos desnecessários."
+  },
+  {
+    "id": 48,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Qual metodologia influenciou a ideia de minimizar desperdícios?",
+    "resposta": "O Lean inspirou a minimização de desperdícios nas metodologias ágeis."
+  },
+  {
+    "id": 49,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "O que é o Manifesto Ágil?",
+    "resposta": "É um conjunto de valores e princípios criado em 2001 para tornar o desenvolvimento de software mais eficiente e flexível."
+  },
+  {
+    "id": 50,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Quantos desenvolvedores criaram o Manifesto Ágil?",
+    "resposta": "O Manifesto Ágil foi criado por 17 desenvolvedores de software."
+  },
+  {
+    "id": 51,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Qual é a principal prioridade do Manifesto Ágil?",
+    "resposta": "Satisfazer o cliente através de entregas contínuas e rápidas de valor."
+  },
+  {
+    "id": 52,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Como o Manifesto Ágil enxerga mudanças nos requisitos?",
+    "resposta": "As mudanças são vistas como oportunidades para melhorar o produto."
+  },
+  {
+    "id": 53,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Por que entregar software funcional frequentemente é importante?",
+    "resposta": "Porque permite que o cliente acompanhe o progresso constante do projeto."
+  },
+  {
+    "id": 54,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Qual a importância da colaboração diária entre negócios e desenvolvimento?",
+    "resposta": "Ela promove comunicação constante e alinhamento entre as partes interessadas."
+  },
+  {
+    "id": 55,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "O que o Manifesto Ágil diz sobre indivíduos motivados?",
+    "resposta": "Os projetos devem ser construídos em torno de pessoas motivadas, com suporte e autonomia."
+  },
+  {
+    "id": 56,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Segundo o Manifesto Ágil, qual é a forma mais eficiente de transmitir informações?",
+    "resposta": "A comunicação presencial."
+  },
+  {
+    "id": 57,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Qual é a principal medida de progresso em projetos ágeis?",
+    "resposta": "Software funcionando."
+  },
+  {
+    "id": 58,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "O que significa manter um ritmo sustentável no desenvolvimento?",
+    "resposta": "Trabalhar de forma equilibrada sem sobrecarregar a equipe."
+  },
+  {
+    "id": 59,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Por que a excelência técnica é importante no ágil?",
+    "resposta": "Porque melhora a qualidade do produto e facilita futuras evoluções."
+  },
+  {
+    "id": 60,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "O que significa simplicidade no contexto ágil?",
+    "resposta": "Fazer apenas o necessário e evitar desperdícios."
+  },
+  {
+    "id": 61,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Como surgem as melhores arquiteturas e designs segundo o Manifesto Ágil?",
+    "resposta": "A partir de equipes auto-organizadas."
+  },
+  {
+    "id": 62,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Por que a equipe deve refletir regularmente sobre o trabalho?",
+    "resposta": "Para identificar melhorias e aumentar a eficácia dos processos."
+  },
+  {
+    "id": 63,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "O que é o ciclo de vida ágil?",
+    "resposta": "É um processo iterativo e incremental usado para desenvolver produtos ou serviços."
+  },
+  {
+    "id": 64,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Qual a diferença entre o ciclo de vida ágil e o modelo cascata?",
+    "resposta": "O ciclo ágil é flexível e iterativo, enquanto o cascata é linear e rígido."
+  },
+  {
+    "id": 65,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Qual é a primeira fase do ciclo de vida ágil?",
+    "resposta": "Ideação e planejamento inicial."
+  },
+  {
+    "id": 66,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "O que acontece na fase de ideação e planejamento inicial?",
+    "resposta": "São definidos objetivos, requisitos iniciais e prioridades do projeto."
+  },
+  {
+    "id": 67,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "O que ocorre na fase de iteração e execução?",
+    "resposta": "A equipe desenvolve funcionalidades em ciclos curtos chamados iterações ou sprints."
+  },
+  {
+    "id": 68,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "O que acontece na entrega contínua?",
+    "resposta": "O cliente recebe partes funcionais do produto ao final de cada iteração."
+  },
+  {
+    "id": 69,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Qual o objetivo da revisão e adaptação?",
+    "resposta": "Analisar resultados e ajustar o produto ou processo com base no feedback."
+  },
+  {
+    "id": 70,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Quais são as características do ciclo de vida ágil?",
+    "resposta": "Ele é iterativo, incremental, colaborativo, adaptável e focado em qualidade."
+  },
+  {
+    "id": 71,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Qual a vantagem da flexibilidade em projetos ágeis?",
+    "resposta": "Permite responder rapidamente a mudanças nos requisitos."
+  },
+  {
+    "id": 72,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Como as metodologias ágeis reduzem riscos?",
+    "resposta": "Por meio de entregas frequentes e validação contínua."
+  },
+  {
+    "id": 73,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Como o cliente participa no ciclo de vida ágil?",
+    "resposta": "Acompanhando entregas, fornecendo feedback e ajudando na definição de prioridades."
+  },
+  {
+    "id": 74,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "O que é Product Backlog no Scrum?",
+    "resposta": "É a lista priorizada de funcionalidades e tarefas do produto."
+  },
+  {
+    "id": 75,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "O que acontece no planejamento da sprint?",
+    "resposta": "A equipe seleciona as tarefas que serão desenvolvidas durante a sprint."
+  },
+  {
+    "id": 76,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "O que é revisão da sprint?",
+    "resposta": "É a apresentação do incremento desenvolvido durante a sprint."
+  },
+  {
+    "id": 77,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Qual a função da retrospectiva no Scrum?",
+    "resposta": "Refletir sobre o processo e identificar melhorias para as próximas sprints."
+  },
+  {
+    "id": 78,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "O que é Scrum Poker?",
+    "resposta": "É uma técnica utilizada para estimar esforço e complexidade de tarefas em projetos ágeis."
+  },
+  {
+    "id": 79,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "O que é MVP em metodologias ágeis?",
+    "resposta": "MVP significa Produto Mínimo Viável, uma versão inicial com funcionalidades essenciais para validação."
+  },
+  {
+    "id": 80,
+    "categoria": "Metodologias Ágeis",
+    "pergunta": "Qual livro é recomendado como introdução prática ao Scrum?",
+    "resposta": "Scrum: A Arte de Fazer o Dobro do Trabalho na Metade do Tempo, de Jeff Sutherland."
   }
 ]
